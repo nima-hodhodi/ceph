@@ -2,4 +2,5 @@ apt update
 apt install python3 lvm2 podman
 apt install cephadm
 apt install catatonit
+apt install -y ceph-common
 cephadm bootstrap --mon-ip <host-ip> --allow-fqdn-hostname
